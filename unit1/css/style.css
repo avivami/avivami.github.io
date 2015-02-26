@@ -1,11 +1,22 @@
 body {
-	background-color: #E42217;
+	background-color: #1a1a1a;
+	margin: 50px;
 }
 
 h1 {
 	color: #D9E317;
+	font-family: 'helvetica';
+	font-size: 100px;
+	border-bottom: 10px solid;
+	border-spacing: 5px;
 }
 
 p{
 	color: #D9E317;
+	font-family: 'georgie';
+	font-size: 25px;
+}
+
+a {
+	color: red;
 }
