@@ -1,30 +1,29 @@
 body {
-background-color: #fffabf;
-margin: 50px;
-background-image: url("images/overlay1280.png");
-color: rgb(0,0,180);
-
+	background-color: #fffabf;
+	margin: 50px;
+	background-image: url("../images/overlay1280.png");
+	color: rgb(0,0,180);
 }
 
 h1 {
-font-family: 'Georgia';
-font-size: 30px;
-font-weight: normal;
+	font-family: 'Georgia';
+	font-size: 30px;
+	font-weight: normal;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 900;
 }
 
 p {
-font-family: 'Georgia';
-font-size: 18px;
-line-height: 150%;
+	font-family: 'Georgia';
+	font-size: 18px;
+	line-height: 150%;
 }
 
 a {
-color: red;
+	color: red;
 }
 
 ul {
@@ -32,9 +31,37 @@ ul {
 	margin-left: 1.2em; 
 }
 
-#slogan{
-	font-family: helvetica;
+#intro {
+	width: 500px;
+	margin: 83px auto auto 83px;
 }
+
+#mainline{
+	width: 100px;
+	height:4px;
+	background: rgb(0,0,180);
+	border-bottom: 4px solid rgb(0,0,180);
+	margin: auto auto 70px 220px;
+
+}
+
+
+
+#hand{
+	width: 372px;
+}
+
+#ledePost{
+	width: 500px;
+	margin: auto auto auto 220px;
+
+}
+
+#slogan{
+	font-weight: bold;
+}
+
+
 
 .date{
 	font-family: helvetica;
@@ -42,6 +69,7 @@ ul {
 	font-weight: normal;
 	border-bottom-style: solid;
 	border-bottom-width: 5px;
+	width: 100px;
 }
 
 .tags{
