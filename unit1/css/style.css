@@ -1,22 +1,53 @@
 body {
-	background-color: #1a1a1a;
-	margin: 50px;
+background-color: #fffabf;
+margin: 50px;
+background-image: url("images/overlay1280.png");
+color: rgb(0,0,180);
+
 }
 
 h1 {
-	color: #D9E317;
-	font-family: 'helvetica';
-	font-size: 100px;
-	border-bottom: 10px solid;
-	border-spacing: 5px;
+font-family: 'Georgia';
+font-size: 30px;
+font-weight: normal;
 }
 
-p{
-	color: #D9E317;
-	font-family: 'georgie';
-	font-size: 25px;
+h3 {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+p {
+font-family: 'Georgia';
+font-size: 18px;
+line-height: 150%;
 }
 
 a {
-	color: red;
+color: red;
 }
+
+ul {
+	padding-left: 0;
+	margin-left: 1.2em; 
+}
+
+#slogan{
+	font-family: helvetica;
+}
+
+.date{
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: normal;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+
+.tags{
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
