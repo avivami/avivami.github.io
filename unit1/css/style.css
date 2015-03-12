@@ -1,24 +1,26 @@
 body {
 	background-color: #fffabf;
 	margin: 50px;
-	background-image: url("../images/overlay1280.png");
-	color: rgb(0,0,180);
+/*	background-image: url("../images/overlay1280.png");
+*/	color: rgb(0,0,180);
 }
 
 h1 {
 	font-family: 'Georgia';
 	font-size: 30px;
 	font-weight: normal;
+	line-height: 130%;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 900;
+	line-height: 120%;
 }
 
 p {
 	font-family: 'Georgia';
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 150%;
 }
 
@@ -70,7 +72,8 @@ ul {
 	border-bottom-style: solid;
 	border-bottom-width: 5px;
 	width: 100px;
-}
+/*	letter-spacing: 1px;
+*/}
 
 .tags{
 	font-family: helvetica;
