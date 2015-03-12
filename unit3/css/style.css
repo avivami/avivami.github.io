@@ -1,8 +1,9 @@
 body {
 	background-color: #fffabf;
 	margin: 50px;
-/*	background-image: url("../images/overlay1280.png");
-*/	color: rgb(0,0,180);
+/*	background: url("../images/overlay1280.png") no-repeat center center fixed;
+*/	background-size: cover;
+	color: rgb(0,0,180);
 }
 
 h1 {
@@ -22,6 +23,7 @@ p {
 	font-family: 'Georgia';
 	font-size: 20px;
 	line-height: 150%;
+	margin: 0;
 }
 
 a {
@@ -31,11 +33,42 @@ a {
 ul {
 	padding-left: 0;
 	margin-left: 1.2em; 
+	margin-top: 0;
+}
+
+hr{
+	margin: 7px 0px;
+	border: none;
+	width: 20px;
+	height: 5px;
+	background-color: rgb(0,0,180);  
+	padding: 0;
+}
+
+.clearfix:after {   
+	visibility: hidden;   
+	display: block;   
+	font-size: 0;   
+	content: " ";   
+	clear: both;   
+	height: 0; 
+}
+
+#top{
+	width:100%;
+	margin: 0 auto;
+	display: block;
 }
 
 #intro {
 	width: 500px;
 	margin: 83px auto auto 83px;
+	float: left;
+}
+
+#hand{
+	width: 372px;
+	float: left;
 }
 
 #mainline{
@@ -47,11 +80,6 @@ ul {
 
 }
 
-
-
-#hand{
-	width: 372px;
-}
 
 #ledePost{
 	width: 500px;
@@ -69,16 +97,20 @@ ul {
 	font-family: helvetica;
 	font-size: 12px;
 	font-weight: normal;
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	width: 100px;
+/*	border-bottom-style: solid;
+	border-bottom-width: 5px;*/
+	width: 80px;
+	padding-bottom: 0;
+	margin: 0;
 /*	letter-spacing: 1px;
+
 */}
 
 .tags{
 	font-family: helvetica;
 	font-size: 12px;
 	font-weight: bold;
+	margin: 0;
 }
 
 

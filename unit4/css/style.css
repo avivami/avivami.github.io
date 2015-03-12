@@ -1,0 +1,116 @@
+body {
+	background-color: #fffabf;
+	margin: 50px;
+/*	background: url("../images/overlay1280.png") no-repeat center center fixed;
+*/	background-size: cover;
+	color: rgb(0,0,180);
+}
+
+h1 {
+	font-family: 'Georgia';
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 130%;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 900;
+	line-height: 120%;
+}
+
+p {
+	font-family: 'Georgia';
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0;
+}
+
+a {
+	color: red;
+}
+
+ul {
+	padding-left: 0;
+	margin-left: 1.2em; 
+	margin-top: 0;
+}
+
+hr{
+	margin: 7px 0px;
+	border: none;
+	width: 20px;
+	height: 5px;
+	background-color: rgb(0,0,180);  
+	padding: 0;
+}
+
+.clearfix:after {   
+	visibility: hidden;   
+	display: block;   
+	font-size: 0;   
+	content: " ";   
+	clear: both;   
+	height: 0; 
+}
+
+#top{
+	width:100%;
+	margin: 0 auto;
+	display: block;
+}
+
+#intro {
+	width: 500px;
+	margin: 83px auto auto 83px;
+	float: left;
+}
+
+#hand{
+	width: 372px;
+	float: left;
+}
+
+#mainline{
+	width: 100px;
+	height:4px;
+	background: rgb(0,0,180);
+	border-bottom: 4px solid rgb(0,0,180);
+	margin: auto auto 70px 220px;
+
+}
+
+
+#ledePost{
+	width: 500px;
+	margin: auto auto auto 220px;
+
+}
+
+#slogan{
+	font-weight: bold;
+}
+
+
+
+.date{
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: normal;
+/*	border-bottom-style: solid;
+	border-bottom-width: 5px;*/
+	width: 80px;
+	padding-bottom: 0;
+	margin: 0;
+/*	letter-spacing: 1px;
+
+*/}
+
+.tags{
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
