@@ -3,32 +3,42 @@ body {
 	margin: 50px;
 /*	background: url("../images/overlay1280.png") no-repeat center center fixed;
 */	background-size: cover;
-	color: rgb(0,0,180);
+	color: #0000B4;
 }
 
 h1 {
-	font-family: 'Georgia';
-	font-size: 30px;
+	font-family: 'Alegreya', serif, 'Georgia';
+/*	font-family: 'Georgia';
+*/	font-size: 1.75em;
 	font-weight: normal;
-	line-height: 130%;
+	line-height: 1.3em;
 }
 
 h3 {
-	font-size: 28px;
-	font-weight: 900;
-	line-height: 120%;
+	font-family: 'Alegreya', serif, 'Georgia';
+	font-size: 1.4em;
+	font-weight: 700;
+	line-height: 1.5em;
 }
 
 p {
-	font-family: 'Georgia';
-	font-size: 20px;
-	line-height: 150%;
-	margin: 0;
+	font-family: 'Alegreya', serif, 'Georgia';
+	font-size: 1.25em;
+	line-height: 1.5em;
+	margin: 5,0;
 }
 
 a {
-	color: red;
+	color: #E10000;
 }
+
+a:hover {
+    color: black;
+} 
+
+a:visited {
+    color: #0099B2;
+} 
 
 ul {
 	padding-left: 0;
@@ -41,7 +51,7 @@ hr{
 	border: none;
 	width: 20px;
 	height: 5px;
-	background-color: rgb(0,0,180);  
+	background-color: #0000B4;  
 	padding: 0;
 }
 
@@ -73,30 +83,27 @@ hr{
 
 #mainline{
 	width: 100px;
-	height:4px;
+	height:6px;
 	background: rgb(0,0,180);
-	border-bottom: 4px solid rgb(0,0,180);
+	border-bottom: 4px solid #0000B4;
 	margin: auto auto 70px 220px;
-
+	float: left;
 }
 
 
 #ledePost{
-	width: 500px;
+	width: 30em;
 	margin: auto auto auto 220px;
-
-}
-
-#slogan{
-	font-weight: bold;
-}
+/*	float: left;
+*/}
 
 
 
 .date{
-	font-family: helvetica;
-	font-size: 12px;
-	font-weight: normal;
+	font-family: 'Roboto', sans-serif, helvetica;
+/*	font-family: helvetica;
+*/	font-size: .75em;
+	font-weight: 400;
 /*	border-bottom-style: solid;
 	border-bottom-width: 5px;*/
 	width: 80px;
@@ -106,11 +113,13 @@ hr{
 
 */}
 
-.tags{
-	font-family: helvetica;
-	font-size: 12px;
-	font-weight: bold;
+#tags{
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: .75em;
+	font-weight: 700;
+	line-height: 1.5em;
 	margin: 0;
+	width: 10em;
 }
 
 
