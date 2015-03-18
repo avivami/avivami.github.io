@@ -8,9 +8,8 @@ body {
 
 h1 {
 	font-family: 'Alegreya', serif, 'Georgia';
-/*	font-family: 'Georgia';
-*/	font-size: 1.75em;
-	font-weight: normal;
+	font-size: 2em;
+	font-weight: 400;
 	line-height: 1.3em;
 }
 
@@ -33,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #DDACAC;
 } 
 
 a:visited {
@@ -55,6 +54,11 @@ hr{
 	padding: 0;
 }
 
+em {
+	font-family: 'Alegreya', serif, 'Georgia';
+	font-weight: 400italic;
+}
+
 .clearfix:after {   
 	visibility: hidden;   
 	display: block;   
@@ -64,6 +68,16 @@ hr{
 	height: 0; 
 }
 
+.date{
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: .75em;
+	font-weight: 400;
+	width: 80px;
+	padding-bottom: 0;
+	margin: auto auto 10px 83px;
+}
+
+
 #top{
 	width:100%;
 	margin: 0 auto;
@@ -71,7 +85,7 @@ hr{
 }
 
 #intro {
-	width: 500px;
+	width: 550px;
 	margin: 83px auto auto 83px;
 	float: left;
 }
@@ -82,44 +96,46 @@ hr{
 }
 
 #mainline{
-	width: 100px;
+	width: 400px;
 	height:6px;
-	background: rgb(0,0,180);
+	background: #0000B4;
 	border-bottom: 4px solid #0000B4;
 	margin: auto auto 70px 220px;
 	float: left;
 }
 
+/*#dateTags{
+	margin-top: 200px;
+}*/
 
-#ledePost{
-	width: 30em;
-	margin: auto auto auto 220px;
-/*	float: left;
-*/}
-
-
-
-.date{
-	font-family: 'Roboto', sans-serif, helvetica;
-/*	font-family: helvetica;
-*/	font-size: .75em;
-	font-weight: 400;
-/*	border-bottom-style: solid;
-	border-bottom-width: 5px;*/
-	width: 80px;
-	padding-bottom: 0;
-	margin: 0;
-/*	letter-spacing: 1px;
-
-*/}
+#dateline{
+	width: 20px;
+	height:6px;
+	background: #0000B4;
+	border-bottom: 4px solid #0000B4;
+	margin: auto auto 10px 83px;
+}
 
 #tags{
 	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: .75em;
 	font-weight: 700;
 	line-height: 1.5em;
-	margin: 0;
+	margin: auto auto 70px 83px;
 	width: 10em;
+	float: left;
 }
+
+
+
+#ledePost{
+	width: 30em;
+/*	margin: auto auto auto 220px;
+*/	margin: auto auto 10px 220px;
+
+/*	float: left;
+*/}
+
+
 
 
