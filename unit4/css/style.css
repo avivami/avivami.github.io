@@ -18,6 +18,7 @@ h3 {
 	font-size: 1.4em;
 	font-weight: 700;
 	line-height: 1.5em;
+	margin: 0px 0px 20px 0px;
 }
 
 p {
@@ -59,6 +60,24 @@ em {
 	font-weight: 400italic;
 }
 
+
+header{
+	width:100%;
+	margin: 0 auto;
+	display: block;
+}
+
+main{
+	width: 800px;
+	margin: 0;
+}
+
+article {
+	display: inline-block;
+}
+
+
+
 .clearfix:after {   
 	visibility: hidden;   
 	display: block;   
@@ -72,69 +91,58 @@ em {
 	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: .75em;
 	font-weight: 400;
-	width: 80px;
 	padding-bottom: 0;
-	margin: auto auto 10px 83px;
+	margin: 0px 0px 10px 0px;
 }
 
 
-#top{
-	width:100%;
-	margin: 0 auto;
-	display: block;
-}
+
 
 #intro {
 	width: 550px;
 	margin: 83px auto auto 83px;
-	float: left;
+	display: inline-block;
 }
 
 #hand{
 	width: 372px;
-	float: left;
+	display: inline-block;
 }
 
 #mainline{
-	width: 400px;
+	width: 100px;
 	height:6px;
 	background: #0000B4;
 	border-bottom: 4px solid #0000B4;
-	margin: auto auto 70px 220px;
-	float: left;
+	margin: 20px 0 40px 265px;
 }
 
-/*#dateTags{
-	margin-top: 200px;
-}*/
+#dateTags{
+	width: 180px;
+	margin: 100px 0px 0px 83px;
+	float: left;
+}
 
 #dateline{
 	width: 20px;
 	height:6px;
 	background: #0000B4;
 	border-bottom: 4px solid #0000B4;
-	margin: auto auto 10px 83px;
 }
 
 #tags{
 	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: .75em;
 	font-weight: 700;
-	line-height: 1.5em;
-	margin: auto auto 70px 83px;
-	width: 10em;
-	float: left;
+	line-height: 1.5em;	
 }
 
 
-
 #ledePost{
-	width: 30em;
-/*	margin: auto auto auto 220px;
-*/	margin: auto auto 10px 220px;
-
-/*	float: left;
-*/}
+	width: 450px;
+	margin: 0px;
+	float: left;
+}
 
 
 
