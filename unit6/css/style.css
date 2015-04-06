@@ -74,7 +74,7 @@ h4{
 
 p{
 	font-family: georgia;
-	font-size: 1.25em;
+	font-size: 1.1em;
 	font-style: italic;
 	line-height: 1.25em;
 	width: 400px;
@@ -108,7 +108,7 @@ footer{
 }
 
 #navbar li a{
-	padding: 10px 0px;
+	padding: 6px 0px;
 	margin: 0px 20px;
 	border-bottom: 4px solid;
 }
