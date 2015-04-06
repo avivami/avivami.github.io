@@ -108,7 +108,7 @@ footer{
 }
 
 #navbar li a{
-	padding: 3px 0px;
+	padding: 10px 0px;
 	margin: 0px 20px;
 	border-bottom: 4px solid;
 }
@@ -125,5 +125,18 @@ footer{
 	text-decoration: none;
 	display: inline;
 	margin: 0px 40px 0px 0px;
-
 }
+
+#rightMovie{
+	float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
