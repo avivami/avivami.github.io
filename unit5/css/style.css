@@ -76,18 +76,16 @@ article {
 	display: inline-block;
 }
 
-
-
-.clearfix:after {   
-	visibility: hidden;   
-	display: block;   
-	font-size: 0;   
-	content: " ";   
-	clear: both;   
+.clearfix:after { 
+	visibility: hidden; 
+	display: block;
+	font-size: 0; 
+	content: " "; 
+	clear: both; 
 	height: 0; 
 }
 
-.date{
+	.date{
 	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: .75em;
 	font-weight: 400;
