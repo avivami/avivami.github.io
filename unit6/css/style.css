@@ -25,23 +25,24 @@ a:hover {
 main {
 	display: inline-block;
 	padding: 20px 0;
+	clear: both;			
 }
 
 section {
-	width: 495px;
-	margin: 20px 0;
+	width: 465px;
+	margin: 20px 20px 20px 0;
 }
 
 h1{
-	font-family: georgia;
-	font-size: 1.1em;
+	font-family: arial;
+	font-size: .9em;
+	letter-spacing: .065em;
 	line-height: 1.2em;
-	font-weight: 500;
-	font-style: italic;
+	font-weight: 700;
+    text-transform: uppercase;
 	text-align: center;
-	color: #b11f9b;
 	width: 161px;
-	margin: 5px 0;
+	margin: 10px 0;
 /*	display: inline-block;
 	padding: 0 20px;*/
 }
@@ -50,7 +51,7 @@ h2{
 	font-family: Georgia, serif;
 	font-size: 1em;
 	font-weight: 300;
-	margin: .75em 0;
+	margin: 0.75em 2px 0px 0px;
 }
 
 em{
@@ -73,7 +74,9 @@ h4{
 
 p{
 	font-family: georgia;
-	line-height: 1.2em;
+	font-size: 1.25em;
+	font-style: italic;
+	line-height: 1.25em;
 	width: 400px;
 	margin: .8em 0;
 
