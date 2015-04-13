@@ -7,11 +7,6 @@ body{
 }
 
 
-section{
-	display: inline-block;
-
-}
-
 a{
 	text-decoration: none;	
 	color: #74a5aa;
@@ -23,14 +18,17 @@ a:hover {
 } 
 
 main {
-	display: inline-block;
-	padding: 20px 0;
-	clear: both;			
+	width: 1000px;
+	margin: 50px auto;
+	display: block;
 }
 
 section {
 	width: 465px;
-	margin: 20px 20px 20px 0;
+	height: 410px;
+	margin: 20px 35px 20px 0;
+	float: left;
+	display: block;
 }
 
 h1{
@@ -79,7 +77,6 @@ p{
 	line-height: 1.25em;
 	width: 400px;
 	margin: .8em 0;
-
 }
 
 footer{
@@ -88,13 +85,17 @@ footer{
 	margin: 20px 0;
 }
 
+section img{
+	border-radius: 20px;
+}
+
 #logo{
 	float: left;
 }
 
 #navbar{
-	width: 452px;
-	display: inline;
+	width: 500px;
+	display: block;
 	float: right;
 	padding: 50px 30px;
 }
@@ -103,14 +104,15 @@ footer{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
 	text-decoration: none;
-	display: inline;
+	display: inline-block;
 
 }
 
 #navbar li a{
-	padding: 6px 0px;
+	padding: 12px 6px;
 	margin: 0px 20px;
 	border-bottom: 4px solid;
+	display: inline-block;
 }
 
 #subnav{
@@ -127,16 +129,13 @@ footer{
 	margin: 0px 40px 0px 0px;
 }
 
-#rightMovie{
-	float: right;
-}
 
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
