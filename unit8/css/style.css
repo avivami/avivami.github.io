@@ -26,7 +26,7 @@ nav li{
 /*	margin: 0px auto;
 */	width: 50%;
 	display: inline-block;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif, helvetica;
 	letter-spacing: .15em;
 	color: black;
 	font-size: 1em;
@@ -56,8 +56,8 @@ h2 {
 	padding: 5px 0;
 	margin: 40px auto 20px auto;
 	border-top: 4px solid black;
-	font-family: Arial, Helvetica, sans-serif;
-	letter-spacing: .08em;
+	font-family: 'Roboto', sans-serif, helvetica;
+	letter-spacing: .1em;
 	font-size: .8em;
 	text-transform: uppercase;
 	line-height: 1.25em;
@@ -82,10 +82,9 @@ figure img{
 */}
 
 figcaption {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: .6em;
-	margin: 6px 0px;
+	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: .9em;
+	margin: 6px 0px;
 	font-weight: 500;
 	color: #58514a;
 }
@@ -99,6 +98,26 @@ figcaption a{
 figcaption a:hover{
 	color: #a83831;
 }
+
+
+#overAbout {
+	display: none;
+	margin: 8px auto;
+}
+
+#overAbout p{
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: 1.75em;
+	margin: 30px auto;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#overAbout p em{
+	font-weight: 700;
+}
+
 
 #logo {
 	display: block;
@@ -135,6 +154,11 @@ figcaption a:hover{
 		margin: 20px auto 20px auto;
 	}
 
+nav li a{
+		background-color: #e1ddd7;
+		padding: 20px 30%;
+		margin: 10px auto;
+	}
 
 	figure {
 	width: 47%;
@@ -171,6 +195,11 @@ figcaption a:hover{
 		margin: 20px auto 20px auto;
 	}
 
+	nav li a{
+		background-color: #e1ddd7;
+		padding: 20px 20%;
+		margin: 10px auto;
+	}
 
 	figure {
 	float: none;
