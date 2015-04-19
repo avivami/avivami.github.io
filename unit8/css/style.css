@@ -1,0 +1,196 @@
+body{
+	background-color: #d4cec6;
+	color: black;
+	font-size: 15px;
+}
+
+main {
+	width: 100%;
+	margin: 50px auto;
+	display: block;
+/*	border: 5px solid black;
+*/}
+
+header {
+	margin: 70px auto 10px auto;
+	width: 80%;
+}
+
+
+nav {
+	margin: 0px auto;
+}
+
+
+nav li{
+/*	margin: 0px auto;
+*/	width: 50%;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: .15em;
+	color: black;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+/*	background-color: red;
+*/}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	background-color: #d4cec6;
+}
+
+nav li a:hover{
+	color: #a83831;
+}
+
+section {
+	width: 80%;
+	margin: 70px auto 10px auto;
+}
+
+h2 {
+	padding: 5px 0;
+	margin: 40px auto;
+	border-top: 4px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: .08em;
+	font-size: .8em;
+	text-transform: uppercase;
+	line-height: 1.25em;
+
+}
+
+h2 em{
+	font-weight: 700;
+
+}
+
+figure {
+	width: 30%;
+	float: left;
+}
+
+figure img{
+	width: 100%;
+	height: auto;
+/*	box-shadow: 10px 10px 0px #999999;
+*/}
+
+figcaption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .6em;
+	margin: 6px 0px;
+	font-size: .9em;
+	font-weight: 500;
+	color: #58514a;
+}
+
+figcaption a{
+	font-weight: 700;
+	text-decoration: none;
+	color: #58514a;
+}
+
+figcaption a:hover{
+	color: #a83831;
+}
+
+#logo {
+	display: block;
+	margin: -15px auto;	
+}
+
+
+#contact {
+	float: right;
+}
+
+#middle {
+	margin: 0px 5%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+@media only screen and (max-width: 720px) {
+
+	header {
+		margin: 0px auto;
+	}
+
+	nav li {
+		margin: 20px auto 20px auto;
+	}
+
+
+	figure {
+	float: none;
+	width: 100%;
+	margin-bottom: 50px;
+	}
+
+	h2 {
+	margin: 10px auto 20px auto;
+	}
+
+	section {
+	margin: 0px auto 10px auto;
+}
+
+	#logo {
+	margin: 0px auto 20px auto;
+	display: block;
+	}
+
+	#middle {
+		margin: 0px 0px 50px 0px;
+	}
+	
+}
+
+/*
+@media only screen and (max-width: 320px) {
+
+	header {
+		margin: 0px auto;
+	}
+
+	nav li {
+		margin: 20px auto 20px auto;
+	}
+
+
+	figure {
+	float: none;
+	width: 100%;
+	margin-bottom: 50px;
+	}
+
+	h2 {
+	margin: 10px auto 20px auto;
+	}
+
+	section {
+	margin: 0px auto 10px auto;
+}
+
+	#logo {
+	margin: 0px auto 20px auto;
+	display: block;
+	}
+
+	#middle {
+		margin: 0px 0px 50px 0px;
+	}
+	
+}*/
