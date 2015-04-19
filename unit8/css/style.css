@@ -54,7 +54,7 @@ section {
 
 h2 {
 	padding: 5px 0;
-	margin: 40px auto;
+	margin: 40px auto 20px auto;
 	border-top: 4px solid black;
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: .08em;
@@ -72,6 +72,7 @@ h2 em{
 figure {
 	width: 30%;
 	float: left;
+	margin: 20px auto;
 }
 
 figure img{
@@ -109,8 +110,8 @@ figcaption a:hover{
 	float: right;
 }
 
-#middle {
-	margin: 0px 5%;
+.middle {
+	margin: 20px 5%;
 }
 
 .clearfix:after {
@@ -122,7 +123,45 @@ figcaption a:hover{
 	font-size: 0;
 }
 
-@media only screen and (max-width: 720px) {
+/* for 800px or less */
+
+@media only screen and (max-width: 800px) {
+
+	header {
+		margin: 0px auto;
+	}
+
+	nav li {
+		margin: 20px auto 20px auto;
+	}
+
+
+	figure {
+	width: 47%;
+	margin-bottom: 50px;
+	}
+
+	h2 {
+	margin: 10px auto 20px auto;
+	}
+
+	section {
+	margin: 0px auto 10px auto;
+}
+
+	#logo {
+	margin: 0px auto 20px auto;
+	display: block;
+	}
+
+	.middle {
+		margin: 20px 0px 50px 6%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 520px) {
 
 	header {
 		margin: 0px auto;
@@ -152,45 +191,8 @@ figcaption a:hover{
 	display: block;
 	}
 
-	#middle {
+	.middle {
 		margin: 0px 0px 50px 0px;
 	}
 	
 }
-
-/*
-@media only screen and (max-width: 320px) {
-
-	header {
-		margin: 0px auto;
-	}
-
-	nav li {
-		margin: 20px auto 20px auto;
-	}
-
-
-	figure {
-	float: none;
-	width: 100%;
-	margin-bottom: 50px;
-	}
-
-	h2 {
-	margin: 10px auto 20px auto;
-	}
-
-	section {
-	margin: 0px auto 10px auto;
-}
-
-	#logo {
-	margin: 0px auto 20px auto;
-	display: block;
-	}
-
-	#middle {
-		margin: 0px 0px 50px 0px;
-	}
-	
-}*/
