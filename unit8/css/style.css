@@ -64,7 +64,6 @@ h2 {
 
 h2 em{
 	font-weight: 700;
-
 }
 
 figure {
@@ -196,6 +195,10 @@ figcaption a:hover{
 	h2 {
 	margin: 25px auto 20px auto;
 	}
+
+	h2 em{
+	display: block;
+}
 
 	section {
 	margin: 0px auto 10px auto;
