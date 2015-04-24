@@ -8,8 +8,7 @@ main {
 	width: 100%;
 	margin: 50px auto;
 	display: block;
-/*	border: 5px solid black;
-*/}
+}
 
 header {
 	margin: 70px auto 10px auto;
@@ -18,13 +17,14 @@ header {
 
 
 nav {
+	width: 100%;
 	margin: 0px auto;
 }
 
 
 nav li{
-/*	margin: 0px auto;
-*/	width: 50%;
+	width: 20%;
+	margin: 0px 15%;
 	display: inline-block;
 	font-family: 'Roboto', sans-serif, helvetica;
 	letter-spacing: .15em;
@@ -32,9 +32,7 @@ nav li{
 	font-size: 1em;
 	text-transform: uppercase;
 	font-weight: 700;
-	text-align: center;
-/*	background-color: red;
-*/}
+}
 
 nav li a{
 	text-decoration: none;
@@ -53,6 +51,7 @@ section {
 }
 
 h2 {
+	width: 97%;
 	padding: 5px 0;
 	margin: 40px auto 20px auto;
 	border-top: 4px solid black;
@@ -61,7 +60,6 @@ h2 {
 	font-size: .8em;
 	text-transform: uppercase;
 	line-height: 1.25em;
-
 }
 
 h2 em{
@@ -72,7 +70,7 @@ h2 em{
 figure {
 	width: 30%;
 	float: left;
-	margin: 20px auto;
+	margin: 20px 1.66%;
 }
 
 figure img{
@@ -99,6 +97,19 @@ figcaption a:hover{
 	color: #a83831;
 }
 
+#logo {
+	display: block;
+	margin: -15px auto;	
+}
+
+
+#about{
+	text-align: right;
+}
+
+#contact {
+	float: right;
+}
 
 #overAbout {
 	display: none;
@@ -119,19 +130,6 @@ figcaption a:hover{
 }
 
 
-#logo {
-	display: block;
-	margin: -15px auto;	
-}
-
-
-#contact {
-	float: right;
-}
-
-.middle {
-	margin: 20px 5%;
-}
 
 .clearfix:after {
 	visibility: hidden;
@@ -142,86 +140,73 @@ figcaption a:hover{
 	font-size: 0;
 }
 
+
+
 /* for 800px or less */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 
 	header {
 		margin: 0px auto;
 	}
 
 	nav li {
-		margin: 20px auto 20px auto;
-	}
-
-nav li a{
-		background-color: #e1ddd7;
-		padding: 20px 30%;
-		margin: 10px auto;
+		width: 20%;
+		margin: 0px 10%;
 	}
 
 	figure {
-	width: 47%;
-	margin-bottom: 50px;
+	width: 45%;
+	margin: 25px 2.5%;
 	}
 
 	h2 {
-	margin: 10px auto 20px auto;
+	width: 95%;
 	}
-
-	section {
-	margin: 0px auto 10px auto;
-}
-
-	#logo {
-	margin: 0px auto 20px auto;
-	display: block;
-	}
-
-	.middle {
-		margin: 20px 0px 50px 6%;
-	}
-	
 }
 
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 600px) {
+
+	main {
+		margin: 30px auto;
+	}
 
 	header {
-		margin: 0px auto;
+	margin: 0px 2.5%;
+	width: 90%;
 	}
 
 	nav li {
-		margin: 20px auto 20px auto;
+	width: 38%;
+	margin: 10px 6%;
 	}
 
 	nav li a{
-		background-color: #e1ddd7;
-		padding: 20px 20%;
-		margin: 10px auto;
+	padding: 10px;
 	}
+
 
 	figure {
 	float: none;
-	width: 100%;
+	width: 95%;
 	margin-bottom: 50px;
 	}
 
 	h2 {
-	margin: 10px auto 20px auto;
+	margin: 25px auto 20px auto;
 	}
 
 	section {
 	margin: 0px auto 10px auto;
-}
+	width: 90%;
+	}
 
 	#logo {
 	margin: 0px auto 20px auto;
 	display: block;
 	}
 
-	.middle {
-		margin: 0px 0px 50px 0px;
-	}
+
 	
 }
