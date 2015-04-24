@@ -1,0 +1,52 @@
+body{
+	background-color: yellow;
+	color: black;
+	font-size: 15px;
+}
+
+main {
+	width: 100%;
+/*	padding: 50px;
+*/	display: block;
+}
+
+
+h2 {
+	margin: 30px auto 10px auto;
+	font-family: Arial, sans-serif, helvetica;
+/*	letter-spacing: .05em;
+*/	font-size: 2em;
+/*	text-transform: uppercase;
+*/	line-height: 1.25em;
+	font-weight: 700;
+}
+
+p {
+	font-family: georgia;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin: 20px auto;
+}
+
+a{
+	text-decoration: underline;
+	color: black;
+	font-weight: 700;
+}
+
+h3 {
+	color: red;
+	margin: 30px auto 5px auto;
+	font-family: georgia;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+
+#content {
+	width: 40%;
+	margin: 50px auto;
+}
+
+
+
