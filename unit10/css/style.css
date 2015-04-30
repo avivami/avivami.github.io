@@ -1,0 +1,272 @@
+body{
+	background-color: #d4cec6;
+	color: black;
+	font-size: 15px;
+}
+
+main {
+	width: 100%;
+	margin: 50px auto;
+	display: block;
+}
+
+header {
+	margin: 70px auto 10px auto;
+	width: 80%;
+}
+
+
+nav {
+	width: 100%;
+	margin: 0px auto;
+}
+
+
+nav li{
+	width: 20%;
+	margin: 0px 15%;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif, helvetica;
+	letter-spacing: .15em;
+	color: black;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	background-color: #d4cec6;
+}
+
+nav li a:hover{
+	color: #a83831;
+}
+
+section {
+	width: 80%;
+	margin: 70px auto 10px auto;
+}
+
+h2 {
+	width: 97%;
+	padding: 5px 0;
+	margin: 40px auto 20px auto;
+	border-top: 4px solid black;
+	font-family: 'Roboto', sans-serif, helvetica;
+	letter-spacing: .1em;
+	font-size: .8em;
+	text-transform: uppercase;
+	line-height: 1.25em;
+}
+
+h2 em{
+	font-weight: 700;
+}
+
+figure {
+	width: 30%;
+	float: left;
+	margin: 20px 1.66%;
+}
+
+figure img{
+	width: 100%;
+	height: auto;
+/*	box-shadow: 10px 10px 0px #999999;
+*/}
+
+figcaption {
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: .9em;
+	margin: 6px 0px;
+	font-weight: 500;
+	color: #58514a;
+}
+
+figcaption a{
+	font-weight: 700;
+	text-decoration: none;
+	color: #58514a;
+}
+
+figcaption a:hover{
+	color: #a83831;
+}
+
+#logo {
+	display: block;
+	margin: -15px auto;	
+}
+
+
+.about{
+	text-align: right;
+}
+
+.contact {
+	float: right;
+}
+
+
+.overAbout, .overContact {
+	display: none;
+	margin: 8px auto;
+}
+
+.overAbout p, .overContact p{
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: 1.75em;
+	margin: 30px auto;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5em;
+	letter-spacing: 0.02em;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+.overAbout p a, .overContact p a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+.overAbout p a:hover, .overContact p a:hover{
+	color: #a83831;
+}
+
+
+.overAbout p em, .overContact p em{
+	font-weight: 700;
+}
+
+
+.about span {
+display: block;
+width: 19px;
+height: 3px;
+margin: 4px 0;
+background: rgb(0,0,0);
+z-index: 99;
+}
+
+
+.expand {
+display: block !important;
+}
+
+#video {
+	width: 65%;
+	height: 550px;
+	margin: 0px 10px;
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+
+
+/* for 800px or less */
+
+@media only screen and (max-width: 900px) {
+
+	header {
+		margin: 0px auto;
+	}
+
+	nav li {
+		width: 20%;
+		margin: 0px 10%;
+	}
+
+	figure {
+	width: 45%;
+	margin: 25px 2.5%;
+	}
+
+	h2 {
+	width: 95%;
+	}
+
+.overAbout p, .overContact p{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	main {
+		margin: 30px auto;
+	}
+
+	header {
+	margin: 0px 2.5%;
+	width: 90%;
+	}
+
+	nav li {
+	width: 38%;
+	margin: 10px 6%;
+	}
+
+	nav li a{
+	padding: 10px;
+	}
+
+
+	figure {
+	float: none;
+	width: 95%;
+	margin-bottom: 50px;
+	}
+
+	h2 {
+	margin: 25px auto 20px auto;
+	}
+
+	h2 em{
+	display: block;
+}
+
+	section {
+	margin: 0px auto 10px auto;
+	width: 90%;
+	}
+
+	#logo {
+	margin: 0px auto 20px auto;
+	display: block;
+	}
+
+.overAbout p, .overContact p{
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: 1.1em;
+	margin: 10px auto;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.5em;
+	letter-spacing: 0.02em;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+	
+}
+
+
+
+
