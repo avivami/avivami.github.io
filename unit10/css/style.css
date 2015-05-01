@@ -101,6 +101,25 @@ figcaption a:hover{
 	margin: -15px auto;	
 }
 
+#video {
+	width: 60%;
+	height: 550px;
+	margin: 0px 1.66%;
+	float: right;
+}
+
+
+#videoSummary {
+	width: 30%;
+	margin: 20px 1.66%;
+	font-family: Georgia, serif;
+	font-size: 1.25em;
+	font-weight: 500;
+	line-height: 1.5em;
+	color: #58514A;
+}
+
+
 
 .about{
 	text-align: right;
@@ -126,6 +145,8 @@ figcaption a:hover{
 	letter-spacing: 0.02em;
 	padding-left: 30%;
 	padding-right: 30%;
+	color: #58514A;
+
 }
 
 .overAbout p a, .overContact p a{
@@ -156,12 +177,6 @@ z-index: 99;
 
 .expand {
 display: block !important;
-}
-
-#video {
-	width: 65%;
-	height: 550px;
-	margin: 0px 10px;
 }
 
 
