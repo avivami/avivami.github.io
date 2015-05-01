@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<title>AVIVA MICHAELOV</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -16,20 +17,23 @@
 			
 			<nav>
 				<ul>
-					<li id="about"><a href="#">About</a></li>
-					<li id="contact"><a href="#">Contact</a></li>
+					<li class="about"><a href="#">About</a></li>
+					<li class="contact"><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 
-			<div id="overAbout" class="clearfix">
+			<div class="overAbout">
 					<p>
-					<em>Aviva Michaelov</em> art directs <br>
-					the Sunday Review section of <br>
+					Aviva Michaelov art directs the Sunday Review section of
 					The New York Times.</p> 
-					<p>In 2010 she produced a <a href="">video</a> <br>
-					about the history of illustration on <br>
-					the Op-Ed page.
+					<p>In 2010 she produced a <a href="#video">video</a>
+					about the history of illustration on the Op-Ed page.
 					</p>
+			</div>
+
+			<div class="overContact">
+					<p>
+					<a href="mailto:aviva@inforeignland.com"> aviva@inforeignland.com</a></p>
 			</div>
 			
 			</header>
@@ -73,14 +77,29 @@
 
 		</section>
 
-		<section id="oped40" class="clearfix">
-			<h2><em>Op-Ed at 40</em> Special Section and Video</h2>
-
-			<iframe width="50%" height="373" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" title="New York Times Video - Embed Player" src="http://graphics8.nytimes.com/bcvideo/1.0/iframe/embed.html?videoId=1248069084640&playerType=embed"></iframe>
+		<section class="clearfix">
+		<a name="video"><h2><em>Op-Ed at 40</em> Special Section and Video</h2></a>
+			
+		<iframe id="video"  frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" title="New York Times Video - Embed Player" src="http://graphics8.nytimes.com/bcvideo/1.0/iframe/embed.html?videoId=1248069084640&playerType=embed"></iframe>
 		</section>
 
 
 		</main>
+
+<script type="text/javascript">
+jQuery(function($){
+			$( '.about' ).click(function(){
+			$('.overAbout').toggleClass('expand')
+		});
+
+			$( '.contact' ).click(function(){
+			$('.overContact').toggleClass('expand')
+		});
+		});
+</script>
+
+
+
 	</body>
 
 </html>
