@@ -72,6 +72,12 @@ figure {
 	margin: 20px 1.66%;
 }
 
+figure.oped{
+	width: 46.5%;
+	float: left;
+	margin: 20px 1.66%;
+}
+
 figure img{
 	width: 100%;
 	height: auto;
@@ -96,6 +102,22 @@ figcaption a:hover{
 	color: #a83831;
 }
 
+footer {
+	width: 80%;
+	margin: 30px auto 10px auto;
+}
+
+
+footer p {
+	width: 97%;
+	padding: 5px 0;
+	margin: 40px auto 20px auto;
+	border-top: 4px solid black;
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-size: .8em;
+	line-height: 1.25em;
+}
+
 #logo {
 	display: block;
 	margin: -15px auto;	
@@ -103,17 +125,17 @@ figcaption a:hover{
 
 #video {
 	width: 60%;
-	height: 550px;
-	margin: 0px 1.66%;
+	height: 650px;
+	margin: 20px 1.66%;
 	float: right;
 }
 
 
 #videoSummary {
-	width: 30%;
-	margin: 20px 1.66%;
+	width: 27%;
+	margin: 30px 1.66%;
 	font-family: Georgia, serif;
-	font-size: 1.25em;
+	font-size: 1.35em;
 	font-weight: 500;
 	line-height: 1.5em;
 	color: #58514A;
@@ -206,18 +228,42 @@ display: block !important;
 	}
 
 	figure {
-	width: 45%;
-	margin: 25px 2.5%;
+	width: 47%;
+	margin: 25px 1.5%;
 	}
 
-	h2 {
-	width: 95%;
-	}
+/*	h2 {
+	width: 97%;
+	}*/
+
+	footer {
+	width: 90%;
+}
+
+
+footer p {
+	width: 97%;
+}
+
 
 .overAbout p, .overContact p{
 	padding-left: 20%;
 	padding-right: 20%;
 }
+
+}
+
+
+#video {
+	height: 380px;
+}
+
+
+#videoSummary {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	width: 31%;
+	margin: 30px 1.66%;
 
 }
 
@@ -245,9 +291,15 @@ display: block !important;
 
 	figure {
 	float: none;
-	width: 95%;
+	width: 97%;
 	margin-bottom: 50px;
 	}
+
+	figure.oped{
+	width: 97%;
+	float: none;
+	margin-bottom: 50px;
+}
 
 	h2 {
 	margin: 25px auto 20px auto;
@@ -277,6 +329,21 @@ display: block !important;
 	letter-spacing: 0.02em;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+#video {
+	width: 95%;
+	height: 350px;
+	margin: 20px 2.66%;
+	float: none;
+}
+
+
+#videoSummary {
+	width: 90%;
+	margin: 10px 2.66%;
+	font-size: 1.1em;
+	line-height: 1.5em;
 }
 
 	
