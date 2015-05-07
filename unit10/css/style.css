@@ -75,27 +75,35 @@ figure {
 figure.oped{
 	width: 46.5%;
 	float: left;
-	margin: 20px 1.66%;
+	margin: 30px 1.66%;
 }
 
 figure img{
 	width: 100%;
 	height: auto;
-/*	box-shadow: 10px 10px 0px #999999;
-*/}
+	transition: all .2s ease-in-out; 
+
+}
+
+figure img:hover {
+	box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+}
+
 
 figcaption {
 	font-family: 'Roboto', sans-serif, helvetica;
+	letter-spacing: .01em;
 	font-size: .9em;
 	margin: 6px 0px;
 	font-weight: 500;
-	color: #58514a;
+	color: rgba(0,0,0,.5);
 }
 
 figcaption a{
 	font-weight: 700;
 	text-decoration: none;
-	color: #58514a;
+	color: rgba(0,0,0,.5);
 }
 
 figcaption a:hover{
@@ -214,9 +222,9 @@ display: block !important;
 
 
 
-/* for 800px or less */
+/* for 988px or less */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 988px) {
 
 	header {
 		margin: 0px auto;
@@ -245,6 +253,15 @@ footer p {
 	width: 97%;
 }
 
+figure img{
+	transition: none; 
+
+}
+
+figure img:hover {
+	box-shadow: none;
+	transform: scale(1);
+}
 
 .overAbout p, .overContact p{
 	padding-left: 20%;
