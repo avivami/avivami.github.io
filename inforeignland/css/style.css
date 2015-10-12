@@ -66,10 +66,43 @@ h2 em{
 	font-weight: 700;
 }
 
+p {
+	font-family: Georgia, serif;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.5em;
+	color: #58514A;
+}
+
+.more p {
+	width: 70%;
+	padding: 5px 0;
+	margin: 60px auto 20px 12px;
+	clear: both;
+}
+
+p a{
+	font-weight: 700;
+	text-decoration: none;
+	color: inherit;
+
+}
+
+p a:hover {
+		border-bottom: 2px solid #58514A;
+		padding-bottom: 5px;
+}
+
+
+
 figure {
 	width: 30%;
 	float: left;
 	margin: 20px 1.66%;
+}
+
+figure.double {
+		width: 60.2%;
 }
 
 figure.oped{
@@ -85,19 +118,61 @@ figure img{
 
 }
 
-figure img:hover {
+/*figure img:hover {
 	box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
 	transform: scale(1.1);
+}*/
+
+
+
+.overlay {
+	position: relative;
+	float: left;
+	cursor: pointer;
 }
+
+.overlay:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: none;
+}
+
+.overlay:hover:before {
+	content: "See full feature -->";
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+	background: rgba(0, 0, 0,.45);
+	-moz-transition: background .2s linear;
+	-webkit-transition: background .2s linear;
+	-o-transition: background .2s linear;
+	transition: background .2s linear;
+	font-family: 'Roboto', sans-serif, helvetica;
+    letter-spacing: .1em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+
+
+
 
 
 figcaption {
 	font-family: 'Roboto', sans-serif, helvetica;
 	letter-spacing: .01em;
-	font-size: .9em;
+	font-size: .8em;
 	margin: 6px 0px;
 	font-weight: 500;
 	color: rgba(0,0,0,.5);
+	line-height: 1.35em;
+    clear: both;
+    padding-top: 7px;
 }
 
 figcaption a{
@@ -142,11 +217,6 @@ footer p {
 #videoSummary {
 	width: 27%;
 	margin: 30px 1.66%;
-	font-family: Georgia, serif;
-	font-size: 1.35em;
-	font-weight: 500;
-	line-height: 1.5em;
-	color: #58514A;
 }
 
 
