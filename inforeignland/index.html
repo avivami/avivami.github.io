@@ -17,24 +17,10 @@
 			
 			<nav>
 				<ul>
-					<li class="about"><a href="#">About</a></li>
-					<li class="contact"><a href="#">Contact</a></li>
+					<li class="list_item about"><a href="#info">About</a></li>
+					<li class="list_item contact"><a href="#info">Contact</a></li>
 				</ul>
 			</nav>
-
-			<div class="overAbout">
-					<p>
-					Aviva Michaelov art directs the Sunday Review section of
-					The New York Times.</p> 
-					<p>In 2010 she produced a <a href="#video">video</a>
-					about the history of illustration on the Op-Ed page.
-					</p>
-			</div>
-
-			<div class="overContact">
-					<p>
-					<a href="mailto:aviva@inforeignland.com"> aviva@inforeignland.com</a></p>
-			</div>
 			
 			</header>
 
@@ -237,22 +223,33 @@
 
 		</section>
 
+	<section class="info">
+		<a name="info"></a> 
+	
+		<h2><em>About &amp; Contact</em></h2>
+				<div class="about_section">
+						<p>
+						Aviva Michaelov art directs the Sunday Review section of
+						The New York Times.</p> 
+						<p>In 2010 she produced a <a href="#video">video</a>
+						about the history of illustration on the Op-Ed page.
+						</p>
+				</div>
+
+				<div class="contact_section">
+						<p>
+						<a href="mailto:aviva@inforeignland.com"> aviva@inforeignland.com</a></p>
+				</div>
+
+	</section>
+
+
 <footer>
 <p>Updated May 2015</p>
 </footer>
 		</main>
 
-<script type="text/javascript">
-jQuery(function($){
-			$( '.about' ).click(function(){
-			$('.overAbout').toggleClass('expand')
-		});
 
-			$( '.contact' ).click(function(){
-			$('.overContact').toggleClass('expand')
-		});
-		});
-</script>
 
 
 

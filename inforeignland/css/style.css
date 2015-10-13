@@ -230,37 +230,39 @@ footer p {
 }
 
 
-.overAbout, .overContact {
-	display: none;
-	margin: 8px auto;
+.about_section {
+	width: 60%;
+	margin: 10px auto 10px 12px;
 }
 
-.overAbout p, .overContact p{
+.contact_section {
+	width: 30%;
+	float: right;
+}
+
+.info p{
 	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: 1.75em;
-	margin: 30px auto;
 	font-weight: 500;
-	text-align: center;
+	text-align: left;
 	line-height: 1.5em;
 	letter-spacing: 0.02em;
-	padding-left: 30%;
-	padding-right: 30%;
 	color: #58514A;
 
 }
 
-.overAbout p a, .overContact p a{
+.info p a{
 	text-decoration: none;
 	color: black;
 	font-weight: 700;
 }
 
-.overAbout p a:hover, .overContact p a:hover{
+.info p a:hover{
 	color: #a83831;
 }
 
 
-.overAbout p em, .overContact p em{
+.info p em{
 	font-weight: 700;
 }
 
@@ -333,10 +335,10 @@ figure img:hover {
 	transform: scale(1);
 }
 
-.overAbout p, .overContact p{
+/*.overAbout p, .overContact p{
 	padding-left: 20%;
 	padding-right: 20%;
-}
+}*/
 
 }
 
@@ -406,7 +408,7 @@ figure img:hover {
 	display: block;
 	}
 
-.overAbout p, .overContact p{
+/*.overAbout p, .overContact p{
 	font-family: 'Roboto', sans-serif, helvetica;
 	font-size: 1.1em;
 	margin: 10px auto;
@@ -416,7 +418,7 @@ figure img:hover {
 	letter-spacing: 0.02em;
 	padding-left: 10%;
 	padding-right: 10%;
-}
+}*/
 
 #video {
 	width: 95%;
