@@ -54,10 +54,10 @@ h2 {
     width: 96.5%;
     padding: 10px 0;
     margin: 20px 1.75% 10px 1.75%;
-    border-top: 3px solid black;
+    border-top: 5px solid black;
     font-family: 'Roboto', sans-serif, helvetica;
     letter-spacing: .1em;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: 1.25em;
     clear: both;
@@ -77,12 +77,6 @@ p {
 	margin-bottom: 15px;
 }
 
-/*.more p {
-	width: 70%;
-	padding: 5px 0;
-	margin: 60px auto 20px 12px;
-	clear: both;
-}*/
 
 p a{
 	font-weight: 700;
@@ -103,25 +97,30 @@ p a:hover {
 }
 
 
-
-
-.video-container {
-    margin: 20px 1.66%;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+.video_wrapper {
+	max-width: 60%;
+	width: 60%;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:60%;
-	height:60%;
-}
 
+.embed-container { 
+	position: relative; 
+	margin: 20px 1.66%;
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
 
 figure {
 	width: 30%;
@@ -130,8 +129,9 @@ figure {
 }
 
 figure.double {
+		max-width: 59%;
 		width: 59.5%;
-		margin-left: 5%;
+/*		margin-left: 5%;*/
 }
 
 
@@ -173,7 +173,7 @@ figure img{
 }
 
 .overlay:hover:before {
-	content: "See full feature";
+	content: "See more";
 	text-align: center;
 	padding-top: 150px;
 	color: white;
@@ -183,8 +183,8 @@ figure img{
 	-o-transition: background .2s linear;
 	transition: background .2s linear;
 	font-family: 'Roboto', sans-serif, helvetica;
-    letter-spacing: .05em;
-    font-size: 24px;
+    letter-spacing: .075em;
+    font-size: 18px;
     text-transform: uppercase;	
     font-weight: 700;
 }
@@ -234,12 +234,13 @@ footer p {
 
 .video_summary {
 	float: right;
-    margin: -489px 1.66% 0 1.66%;
+    margin: 15px 1.66% 0 1.66%;
 }
 
 .summary.wide {
-	width: 70%;
+	width: 50%;
 	margin: 18px 1.66%;
+	clear: both;
 }
 
 .about{
@@ -278,41 +279,6 @@ z-index: 99;
 
 
 
-/* for 988px or less */
-/*
-@media only screen and (max-width: 988px) {
-
-	header {
-		margin: 0px auto;
-	}
-
-	nav li {
-		width: 20%;
-		margin: 0px 10%;
-	}
-
-	figure {
-	width: 47%;
-	margin: 25px 1.5%;
-	}
-
-
-	footer {
-	width: 90%;
-	}
-
-
-footer p {
-	width: 97%;
-}
-
-
-
-
-}*/
-
-
-
 
 @media only screen and (max-width: 700px) {
 
@@ -326,48 +292,57 @@ footer p {
 	}
 
 	nav li {
-	width: 38%;
-	margin: 10px 6%;
+    width: 45%;
+    margin: 25px 0%;
 	}
 
 	nav li a{
 	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.65);
 	}
 
+	nav li a:hover{
+	padding: 10px;
+	border: 1px solid rgba(187, 180, 173, 1);
+	background-color: rgba(187, 180, 173, 0.18);
+	}
 
 	figure {
 	float: none;
-	width: 97%;
-	margin-bottom: 50px;
+	width: 96.5%;
+	margin: 0 0 50px 0;
+
 	}
 
 	figure.oped{
-	width: 97%;
+	width: 96.5%;
 	float: none;
 	margin-bottom: 50px;
 }
 
 
-figure.double {
-		width: 97%;
-			margin: 30px 1.66%;
-}
+	figure.double {
+			width: 96.5%;
+			max-width: 96.5%;
+			margin: 30px 0;
+	}
 
 
-figure.half{
-	width: 97%;
-	float: left;
-	margin: 30px 1.66%;
-}
+	figure.half{
+		width: 96.5%;
+		margin: 30px 0;
+	}
 
-figure.full {
-	width: 97%;
-	margin: 30px 1.66%;
-}
+	figure.full {
+		width: 96.5%;
+		margin: 30px 0;
+	}
 
 
 	h2 {
-	margin: 25px auto 20px auto;
+		margin: 25px auto 20px auto;
+		line-height: 1.45em;
+	    padding-top: 8px;
 	}
 
 	h2 em{
@@ -385,20 +360,33 @@ figure.full {
 	}
 
 
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:97%;
-	height:97%;
-}
+	.summary, .summary.wide {
+		width: 96.5%;
+		margin: 18px 0;
+		float: none;
+	}
 
 
+	.video_wrapper {
+		max-width: 100%;
+		width: 100%;
+	}
 
-.summary, .summary.wide {
-	width: 97%;
-	margin: 18px 1.66%;
-}
+	.video_summary {
+		float: none;
+	    margin: 0px;
+	}
+
+	footer {
+	    margin: 0px auto 10px auto;
+	    width: 90%;
+
+	}
+
+	footer p {
+		width: 100%;
+	}
+
 
 	
 }
