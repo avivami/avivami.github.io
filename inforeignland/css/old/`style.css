@@ -17,66 +17,38 @@ header {
 
 
 nav {
-	float: right;
-	margin: 0px 1.66% 0 1.66%;
+	width: 100%;
+	margin: 0px auto;
 }
 
 
 nav li{
+	width: 20%;
+	margin: 0px 15%;
 	display: inline-block;
-	font-family: 'Roboto', sans-serif, helvetica;
-	letter-spacing: .15em;
-	color: black;
-	font-size: .9em;
-	text-transform: uppercase;
-	font-weight: 400;
-
-}
-
-nav li a{
-	text-decoration: none;
-	color: black;
-	padding: 10px;
-	background-color: #d4cec6;
-	margin-left: 20px;
-}
-
-nav li a:hover{
-	color: rgba(0,0,0,.35);
-}
-
-
-.tagline {
-    clear: both;
-    padding-top: 27px;
-}
-
-
-.tagline p {
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 0px;
 	font-family: 'Roboto', sans-serif, helvetica;
 	letter-spacing: .15em;
 	color: black;
 	font-size: .8em;
 	text-transform: uppercase;
 	font-weight: 400;
-
 }
 
-.tagline p em {
-	font-weight: 700;
+nav li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	background-color: #d4cec6;
 }
 
-
+nav li a:hover{
+	    color: rgba(0,0,0,.35);
+}
 
 section {
 	width: 80%;
-	margin: 0px auto 10px auto;
+	margin: 70px auto 10px auto;
 }
-
-
 
 h2 {
     width: 96.5%;
@@ -95,12 +67,6 @@ h2 {
 h2 em{
 	font-weight: 700;
 }
-
-h2.top {
-	margin-top: 35px;
-}
-
-
 
 p {
 	font-family: 'Crimson Text', serif;
@@ -127,9 +93,7 @@ p a:hover {
 
 #logo {
 	display: block;
-	margin: 0px auto;	
-	position: absolute;
-    left: 43%;
+	margin: -15px auto;	
 }
 
 
@@ -229,11 +193,11 @@ figure img{
 figcaption {
 	font-family: 'Roboto', sans-serif, helvetica;
 	letter-spacing: .01em;
-	font-size: .9em;
+	font-size: .8em;
 	margin: 6px 0px;
 	font-weight: 400;
 	color: rgba(106,103,100,1);
-	line-height: 1.6em;
+	line-height: 1.45em;
     clear: both;
 }
 
@@ -275,15 +239,17 @@ footer p {
 }
 
 .summary.wide {
-	width: 66%;
+	width: 50%;
 	margin: 18px 1.66%;
 	clear: both;
-	 -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;    
-    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 30px; /* Firefox */
-    column-gap: 30px;
+}
+
+.about{
+	text-align: right;
+}
+
+.contact {
+	float: right;
 }
 
 
@@ -313,22 +279,6 @@ z-index: 99;
 }
 
 
-@media only screen and (max-width: 1000px) {
-
-.summary.wide {
-	 -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;    
-}
-
-
-
-nav li {
-	float: none;
-}
-
-
-}
 
 
 @media only screen and (max-width: 700px) {
@@ -417,7 +367,6 @@ nav li {
 		width: 96.5%;
 		margin: 18px 0;
 		float: none;
-
 	}
 
 
