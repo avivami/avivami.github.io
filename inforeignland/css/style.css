@@ -69,6 +69,9 @@ nav li a:hover{
 	font-weight: 700;
 }
 
+.tagline p a {
+	color: black;
+}
 
 
 section {
@@ -315,31 +318,42 @@ z-index: 99;
 
 @media only screen and (max-width: 1000px) {
 
-.summary.wide {
-	 -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;    
-}
+	.summary.wide {
+		 -webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;    
+	}
 
-#logo {
-	left: 41%;
-}
+	#logo {
+		left: 41%;
+	}
 
-nav {
-	margin-top: -15px;
-}
+	nav {
+		margin-top: -15px;
+	}
 
-nav li {
-/*	float: none;*/
-	display: block;
-	    margin-top: 12px;
-    text-align: right;
-}
+	nav li {
+		display: block;
+		margin-top: 12px;
+	    text-align: right;
+	}
 
-.tagline p {
-	margin-top: 0px;
-}
+	.tagline p {
+		margin-top: 0px;
+	}
 
+	figure,
+	figure.oped,
+	figure.half {
+		width: 44.5%;
+		margin: 20px 2.66%;
+	}
+
+	figure.double,
+	figure.full {
+		width: 96.5%;
+		max-width: 96.5%;
+	}
 
 
 
@@ -466,3 +480,13 @@ nav li {
 
 	
 }
+
+
+@media only screen and (max-width: 375px) {
+
+#logo {
+	    left: 24%;
+}
+
+}
+
