@@ -316,6 +316,23 @@ z-index: 99;
 }
 
 
+span {
+	float: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+span a {
+	text-decoration: none;
+	color: black;
+}
+
+span a:hover {
+    color: rgba(0,0,0,.35);
+}
+
+
+
 @media only screen and (max-width: 1000px) {
 
 	.summary.wide {
@@ -477,6 +494,10 @@ z-index: 99;
 		width: 100%;
 	}
 
+	span {
+    margin-top: -20px;
+}
+
 
 	
 }
@@ -487,6 +508,10 @@ z-index: 99;
 #logo {
 	    left: 24%;
 }
+
+
+
+
 
 }
 
