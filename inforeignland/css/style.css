@@ -321,11 +321,28 @@ z-index: 99;
     column-count: 1;    
 }
 
+#logo {
+	left: 41%;
+}
 
+nav {
+	margin-top: -15px;
+}
 
 nav li {
-	float: none;
+/*	float: none;*/
+	display: block;
+	    margin-top: 12px;
+    text-align: right;
 }
+
+.tagline p {
+	margin-top: 0px;
+}
+
+
+
+
 
 
 }
@@ -340,6 +357,10 @@ nav li {
 	header {
 		margin: 0px 2.5%;
 		width: 90%;
+	}
+
+	.tagline p {
+    	margin-top: 25px;
 	}
 
 	nav li {
@@ -410,6 +431,7 @@ nav li {
 	#logo {
 	margin: 0px auto 20px auto;
 	display: block;
+	    left: 34%;
 	}
 
 
