@@ -290,6 +290,13 @@ footer p {
 }
 
 
+.summary.wide1 {
+	width: 90%;
+	margin: 18px 1.66%;
+	clear: both;
+}
+
+
 .contact_section {
 	width: 30%;
 	float: right;
